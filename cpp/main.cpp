@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     WManager::getInstance()->load();
 /*
     int iterationNb = 110; // nombre d’itérations que l’on va faire
-    GameOfLife game(50, 50); // définition d’un objet "game" de taille 50x50
+    GameLife game(50, 50); // définition d’un objet "game" de taille 50x50
     game.initialisation(); // on initialise (ex : figure ci-dessus)
     game.saveSolution(0); // on sauvegarde l’initialisation
 
